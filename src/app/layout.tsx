@@ -57,8 +57,10 @@ export default function RootLayout({
                   <Image
                     src="/logo.svg"
                     alt="Clawdoes"
-                    width={26}
-                    height={26}
+                    width={28}
+                    height={28}
+                    priority
+                    className="size-7 select-none dark:invert"
                   />
                   <div className="flex flex-col">
                     <span className="font-serif text-lg font-medium leading-none tracking-tight">
@@ -121,6 +123,7 @@ export default function RootLayout({
                         alt="Clawdoes"
                         width={22}
                         height={22}
+                        className="size-[22px] select-none dark:invert"
                       />
                       <span className="font-serif text-base font-medium tracking-tight">
                         Clawdoes
